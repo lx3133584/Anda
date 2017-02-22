@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
     <title>安达租赁公司</title>
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <nav>
-        <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">首页</a></li>
-        <li role="presentation"><a href="#">公司简介</a></li>
-        <li role="presentation"><a href="#">联系方式</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="row">
-            
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">安达租赁公司LOGO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav nav-pills pull-right">
+                    <li class="active"><a href=".">官方主页</a></li>
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">主营业务</a></li>
+                    <li><a href="#">联系方式</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="http://wwwimg.infinitus.com.cn/up/2017/0216/1487227753174.jpg" alt="First slide">
+                <div class="carousel-caption">公司展示图片</div>
+            </div>
+            <div class="item">
+                <img src="http://wwwimg.infinitus.com.cn/up/2017/0125/1485324097901.jpg" alt="Second slide">
+                <div class="carousel-caption">公司展示图片</div>
+            </div>
+            <div class="item">
+                <img src="http://wwwimg.infinitus.com.cn/up/2017/0117/1484637485573.jpg" alt="Third slide">
+                <div class="carousel-caption">公司展示图片</div>
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo; </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo; </a>
     </div>
-<script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
